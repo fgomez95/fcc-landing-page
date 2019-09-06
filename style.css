@@ -1,0 +1,24 @@
+#nav-bar {
+  display: flex;
+  background-color: purple;
+}
+#nav-bar ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-link {
+  margin: 10px;
+}
+
+#home {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
+}
+
+@media(max-width: 769px) {
+  #nav-bar {
+    background-color: blue;
+  }
+}
